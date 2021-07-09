@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>login/signup page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span  onclick="login()" >Login</span>
+                        <span  onclick="Signup()">Signup</span>
+                        <hr id="indicator">
+                    </div>
+                  
+                    <!--signup form-->
+                    <form class="form" id="signupform">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="email"required >
+                        <input type="password" placeholder="password" required>
+                        <button type="submit" class="btn">Signup</button>
+                    </form>
+                      <!---login form-->
+                      <form class="form" id="loginform">
+                        <input type="text"placeholder="Username">
+                        <input type="password" name="password" placeholder="password" required>
+                        <button type="submit" class="btn" >Login</button>
+                      
+                    </form>
+                </div>
+            </div>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
